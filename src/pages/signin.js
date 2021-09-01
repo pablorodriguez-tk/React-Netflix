@@ -37,7 +37,7 @@ const Signin = () => {
           <Form.Title>Sign In</Form.Title>
           {error && <Form.Error>{error}</Form.Error>}
 
-          <Form.Base onSubmit={handleSignIn} method="post">
+          <Form.Base onSubmit={handleSignIn} method="POST">
             <Form.Input
               placeholder="Email address"
               value={emailAddress}
